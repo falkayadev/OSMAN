@@ -71,20 +71,16 @@
         ></i>
     </header>
 
-    <section id="portfolio">
-      <div class="container">
-        <h2 class="text-uppercase">Portfolio</h2>
-
-        <div class="slicer">
-          <hr class="starLineBlack" />
-        </div>
-
-        <div id="portfolioImages">
-          <div class="col">
-            <div class="portfolioItem">
+    <section id="portfolio" class="w-full bg-slate-200">
+      <div class="w-3/5 flex flex-col py-10 m-auto">
+        <h2 class="uppercase flex justify-center text-2xl tracking-widest pb-6">Portfolio</h2>
+        <hr class="border-black w-[300px] m-auto"/>
+        <i class="fa-solid fa-star m-auto relative bottom-5 bg-slate-200 text-2xl p-2"></i>
+        <div id="portfolioImages" class="flex flex-wrap">
+          <div>
+            <div class="flex">
               <a href="#">
-                <img class="img" src="images/da.jpg" alt="logo alternative" />
-                <span class="imgOverlay"><i class="fas fa-plus"></i></span>
+                <img class="w-[300px] h-[300px] m-5 rounded-md" src="images/da.jpg" alt="logo alternative" />
               </a>
             </div>
           </div>
@@ -93,11 +89,10 @@
             <div class="portfolioItem">
               <a href="#">
                 <img
-                  class="img"
+                  class="w-[300px] h-[300px] m-5 rounded-md"
                   src="images/533715_523401384337566_1003105443_n.jpg"
                   alt="logo alternative"
                 />
-                <span class="imgOverlay"><i class="fas fa-plus"></i></span>
               </a>
             </div>
           </div>
@@ -105,11 +100,10 @@
             <div class="portfolioItem">
               <a href="#">
                 <img
-                  class="img"
+                  class="w-[300px] h-[300px] m-5 rounded-md"
                   src="images/kcmek.jpg"
                   alt="logo alternative"
                 />
-                <span class="imgOverlay"><i class="fas fa-plus"></i></span>
               </a>
             </div>
           </div>
@@ -117,11 +111,10 @@
             <div class="portfolioItem">
               <a href="#">
                 <img
-                  class="img"
+                  class="w-[300px] h-[300px] m-5 rounded-md"
                   src="images/maxresdefault%20(2).jpg"
                   alt="logo alternative"
                 />
-                <span class="imgOverlay"><i class="fas fa-plus"></i></span>
               </a>
             </div>
           </div>
@@ -129,31 +122,29 @@
             <div class="portfolioItem">
               <a href="#">
                 <img
-                  class="img"
+                  class="w-[300px] h-[300px] m-5 rounded-md"
                   src="images/tumblr_n6fu5sl9es1t4xzsmo1_1401538672_cover.jpg"
                   alt="logo alternative"
                 />
-                <span class="imgOverlay"><i class="fas fa-plus"></i></span>
               </a>
             </div>
           </div>
           <div class="col">
             <div class="portfolioItem">
               <a href="#">
-                <img class="img" src="images/da.jpg" alt="logo alternative" />
-                <span class="imgOverlay"><i class="fas fa-plus"></i></span>
+                <img class="w-[300px] h-[300px] m-5 rounded-md" src="images/da.jpg" alt="logo alternative" />
               </a>
             </div>
           </div>
         </div>
 
-        <button class="btn btn-primary" onclick="messageForButton()">
+        <button class="border-2 border-black px-5 py-1 rounded-lg m-auto hover:bg-slate-500 hover:text-white" onclick="messageForButton()">
           Send
         </button>
       </div>
     </section>
 
-    <section id="about">
+    <!-- <section id="about">
       <h2 class="text-uppercase">About</h2>
 
       <div class="splice">
@@ -246,6 +237,6 @@
       <div class="container">
         <small>Copyright © Doğu Akdeniz 2023 </small>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
