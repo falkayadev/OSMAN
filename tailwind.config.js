@@ -9,6 +9,9 @@ module.exports = {
         "red": "red"
       }
     },
+    fontFamily: {
+      Montserrat: ['Montserrat', 'sans-serif'],
+    }
   },
   plugins: [
     require('@tailwindcss/typography'),
