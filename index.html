@@ -17,34 +17,41 @@
     </script>
   </head>
   <body>
-    <nav class="w-full h-32 bg-red tracking-widest flex fixed z-10">
-      <div class="w-full flex items-center justify-between px-28">
+    <nav class="w-full h-16 lg:h-32 bg-red tracking-widest flex fixed z-10">
+      
+      <div class="w-full flex items-center justify-around xl:justify-between px-28">
         <div id="logo-box" class="flex justify-center items-center">
-          <img class="w-20" src="images/output-onlinepngtools.png" alt="" />
+          <img class="w-10 lg:w-20" src="images/output-onlinepngtools.png" alt="" />
           <a class="pl-6" href="#">
-            <h1 class="uppercase text-xl font-bold font-serif">Doğu Akdeniz</h1>
+            <h1 class="uppercase text-base lg:text-xl font-bold font-serif whitespace-nowrap">Doğu Akdeniz</h1>
           </a>
         </div>
-        <div id="nav-links">
+        <div id="nav-links" class="hidden lg:flex">
           <ul class="flex">
             <li>
-              <a href="#portfolio" class="uppercase pr-20 font-bold font-serif">
+              <a href="#portfolio" class="uppercase pr-5 xl:pr-20 font-bold font-serif">
                 Portfolio
               </a>
             </li>
             <li>
-              <a href="#about" class="uppercase pr-20 font-bold font-serif">
+              <a href="#about" class="uppercase pr-5 xl:pr-20 font-bold font-serif">
                 About
               </a>
             </li>
             <li>
-              <a href="#contact" class="uppercase pr-20 font-bold font-serif">
+              <a href="#contact" class="uppercase xl:pr-20 font-bold font-serif">
                 Contact
               </a>
             </li>
           </ul>
         </div>
+        <div class="lg:hidden">
+          <div class="bg-gray-950 w-6 h-1 rounded mb-1"></div>
+          <div class="bg-gray-950 w-6 h-1 rounded mb-1"></div>
+          <div class="bg-gray-950 w-6 h-1 rounded mb-1"></div>
+        </div>
       </div>
+      
     </nav>
 
     <header class="bg-black pt-56 flex flex-col items-center">
