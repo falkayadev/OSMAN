@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "red": "red"
+        "red": "red",
+      },
+      screens: {
+        'xxl': '63.75rem',
       }
     },
     fontFamily: {
